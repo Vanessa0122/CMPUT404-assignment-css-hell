@@ -21,9 +21,21 @@ h2, h3, h4{
     font-size: 15px;
 }
 
+.profile-image {
+  flex-basis: 0%;
+  margin-right: 1%;
+  padding: 4px;
+}
+
+.profile-image, .resize{
+    width: 300px;
+    height: auto;
+}
+
 .education, .work-experience {
     color: white;
     font-size: 15px;
+    
 }
 
 

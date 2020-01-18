@@ -68,6 +68,12 @@ header {
   padding: 4px;
 }
 
+/*Hiding Enoki's gif for my pretty website*/
+.resize{
+  width: 0px;
+  height: auto;
+}
+
 /* EDUCATION
 -------------*/
 .education .content-wrap {
