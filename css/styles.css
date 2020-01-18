@@ -1,6 +1,3 @@
-
-/*Global*/
-
 body {
   font-family: "Arial", serif;
   line-height: 1.5;
@@ -8,26 +5,27 @@ body {
   background-size: cover; /*One pic cover the whole background*/
 }
 
-h1, h2, h3, h4 {
-  font-family: "Arial", sans-serif;
-  font-weight: 100;
+section h1{
+  text-transform: uppercase;
 }
 
-section h1,
-header h2 {
-  text-transform: uppercase;
+header {
+  text-align: center;
+  padding: 200px 50px;
 }
 
 header h1 {
   font-family: "Arial";
   font-size: 50px;
   color:white;
+  text-align: center;
+  padding: 200px 50px;
 }
 
-header h2,section h1 {
+header h2 {
   font-size: 22px;
   color:white;
-}
+} 
 
 /* Color is the same for every other section
 https://www.w3schools.com/cssref/sel_nth-child.asp
@@ -35,13 +33,13 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child*/
 
 section:nth-child(2n+1) {
   background: #fffefa8c;
-  padding: 0%;
+  padding: 5%;
 }
 
 section:nth-child(2n+2) {
   color: #fff;
   background: rgba(22, 22, 22, 0.315);
-  padding: 0%
+  padding: 5%
 } 
 
 .content-wrap {
@@ -51,21 +49,13 @@ section:nth-child(2n+2) {
   padding: 20px 0;
 }
 
-
-/* HEADER
-----------*/
-header {
-  text-align: center;
-  padding: 200px 50px;
-}
-
-
 /* ABOUT ME
 ----------------------*/
-.profile-image {
-  flex-basis: 0%;
+.profile-image{
   margin-right: 1%;
-  padding: 4px;
+  padding: 5px;
+  width: 300px;
+  height: auto;
 }
 
 /*Hiding Enoki's gif for my pretty website*/
@@ -143,7 +133,7 @@ section:nth-child(4) {
 }
 
 .work-experience .details {
-  /*Akigning the test for description and details https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+  /*Aligning the texts for description and details https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
   flex: 0 0 20%;
 }
 
