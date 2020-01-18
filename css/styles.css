@@ -29,7 +29,10 @@ header h2,section h1 {
   color:white;
 }
 
-/* Color is the same for every other section*/
+/* Color is the same for every other section
+https://www.w3schools.com/cssref/sel_nth-child.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child*/
+
 section:nth-child(2n+1) {
   background: #fffefa8c;
   padding: 0%;
@@ -59,7 +62,6 @@ header {
 
 /* ABOUT ME
 ----------------------*/
-
 .profile-image {
   flex-basis: 0%;
   margin-right: 1%;

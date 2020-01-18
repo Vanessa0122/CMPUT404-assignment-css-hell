@@ -1,0 +1,40 @@
+body {
+    font-family: "Arial", serif;
+    line-height: 1.5;
+    background: url(../images/tenor.gif) fixed 100%;
+    background-size: cover; /*One pic cover the whole background*/
+  }
+  
+
+header h1{
+    color: white;
+    font-size: 40px;
+}
+
+h2, h3, h4{
+    color:white;
+    font-size: 10px;
+}
+
+.profile p{
+    color: white;
+    font-size: 15px;
+}
+
+.education, .work-experience {
+    color: white;
+    font-size: 15px;
+}
+
+
+
+.education h1, .work-experience h1{
+    color: yellow;
+    font-size: 20px;
+}
+
+.education, h2, h3, h4, .work-experience, h2, h3, h4{
+    color: white;
+    font-size: 15px;
+}
+
