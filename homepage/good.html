@@ -5,6 +5,8 @@
     <title>Vanessa Peng</title>
   </head>
   <body>
+
+    <!-- Changes Theme with The Button -->
     <link id="pageStyle" rel="stylesheet" type="text/css" href="css/good.css">
     <script type="text/javascript">
       function swapStyleSheet(sheet){
@@ -15,14 +17,26 @@
     <button id="uglyButton" onclick="swapStyleSheet('css/ugly.css')">Change Theme</button>
     <button id="prettyButton" onclick="swapStyleSheet('css/good.css')">Change Theme</button>    
 
+    <!-- Nav Bar -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href='#Home'>Home</a></li>
+        <li><a href='#Profile'>Profile</a></li>
+        <li><a href='#Education'>Education</a></li>
+        <li><a href='#Work-Experience'>Work Experience</a></li>
+        <li><a href='#Skills'>Skills</a></li>
+        <li><a href='#More'>More</a></li>
+        </ul>
+    </nav>
+    
     <!-- HEADER -->
-    <header>
+    <header id="Home">
       <h1>Vanessa Peng</h1>
       <h2>Computer Science Undergraduate Student @ University of Alberta </h2>
     </header>
 
     <!-- ABOUT ME / PROFILE -->
-    <section class="profile">
+    <section class="profile" id="Profile">
       <div class="content-wrap">
         <img class="profile-image" src="images/Vanessa.jpg">
         <img class="resize" src="images/noki.gif">
@@ -34,7 +48,7 @@
     </section>
 
     <!-- EDUCATION -->
-    <section class="education">
+    <section class="education" id="Education">
       <div class="content-wrap">
         <h1>Education</h1>
         <div class="item">
@@ -57,7 +71,7 @@
 
 
     <!-- WORK EXPERIENCE -->
-    <section class="work-experience">
+    <section class="work-experience" id="Work-Experience">
       <div class="content-wrap">
         <h1>Work Experience</h1>
   
@@ -113,14 +127,14 @@
       </div>  
     </section>
         
-    <section class="Skills">
+    <section class="Skills" id="Skills">
       <div class="content-wrap">
         <h1>Skills & What I can Offer</h1>
         <h2>Java Springboot, Python</h2>
       </div>
     </section>
 
-    <section class="Me">
+    <section class="Me" id="More">
       <div class="content-wrap">
         <h1>Important Points About Me</h1>
         <h2>Love Cooking</h2>
