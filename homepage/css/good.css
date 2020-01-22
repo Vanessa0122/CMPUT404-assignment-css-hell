@@ -5,6 +5,20 @@ body {
   background-size: cover; /*One pic cover the whole background*/
 }
 
+
+#prettyButton{
+  visibility: hidden;
+}
+
+#uglyButton{
+  position: absolute;
+  top: 10%;
+  left: 1%; 
+  border-radius: 20%;
+  background-color: violet;
+}
+
+
 section h1{
   text-transform: uppercase;
 }

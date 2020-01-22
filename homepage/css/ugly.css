@@ -5,8 +5,20 @@ body {
     background-size: cover; /*One pic cover the whole background*/
     text-align: center;
   }
-  
 
+
+  #uglyButton{
+    visibility: hidden;
+  }
+  
+  #prettyButton{
+    position: absolute;
+    top: 10%;
+    left: 1%; 
+    border-radius: 20%;
+    background-color: violet;
+  }
+  
 header h1{
     color: rgb(0, 204, 255);
     font-size: 40px;

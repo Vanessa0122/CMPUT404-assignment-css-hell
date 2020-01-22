@@ -2,13 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-
     <title>Vanessa Peng</title>
-
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="css/good.css">
   </head>
   <body>
+    <link id="pageStyle" rel="stylesheet" type="text/css" href="css/good.css">
+    <script type="text/javascript">
+      function swapStyleSheet(sheet){
+        document.getElementById('pageStyle').setAttribute('href', sheet);
+      }
+    </script>
+    
+    <button id="uglyButton" onclick="swapStyleSheet('css/ugly.css')">Change Theme</button>
+    <button id="prettyButton" onclick="swapStyleSheet('css/good.css')">Change Theme</button>    
 
     <!-- HEADER -->
     <header>
