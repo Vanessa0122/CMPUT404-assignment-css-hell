@@ -1,4 +1,6 @@
 Assignment: CSS Hell
+____________________________________________________________________________________________________
+
 You will skin 3 project gutenberg stories with custom CSS.
 
 You will skin 2 versions of a possible professional homepage for your self with 2 versions of CSS.
@@ -9,7 +11,10 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+____________________________________________________________________________________________________
+
 Part I Gutenberg
+
 -Background image is changed to a darker, decaying brown.
 
 -Border of the images are changed to round.
@@ -18,7 +23,11 @@ Part I Gutenberg
 
 -Header is bold, font-family is the same as paragraphs (Georgia)
 
+
+____________________________________________________________________________________________________
+
 License/Copyright
+
 Author: Vanessa Peng
 
 Repository is cloned from Abram Hindle.
