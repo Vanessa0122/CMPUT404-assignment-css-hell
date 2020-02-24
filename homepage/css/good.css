@@ -1,7 +1,7 @@
 body {
   font-family: "Arial", serif;
   line-height: 1.5;
-  background: url(../images/Gastown.jpg) fixed 100%;
+  background: url(../images/background.JPG) fixed 100%;
   background-size: cover; /*One pic cover the whole background*/
 }
 
@@ -15,7 +15,7 @@ body {
   top: 20%;
   left: 1%; 
   border-radius: 20%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(123, 176, 255, 0.411);
   color: white;
 }
 
@@ -25,11 +25,10 @@ nav{
   top: 0;
   width: 100%;
   margin-top: 0;
-  padding-top: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(139, 27, 111, 0.568);
+  background-color: rgba(129, 209, 255, 0.589);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -82,13 +81,13 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child*/
 
 section:nth-child(2n+1) {
   background: #fffefa8c;
-  padding: 5%;
+  padding: 0%;
 }
 
 section:nth-child(2n+2) {
   color: #fff;
   background: rgba(22, 22, 22, 0.315);
-  padding: 5%
+  padding: 0%
 } 
 
 .content-wrap {
@@ -102,9 +101,8 @@ section:nth-child(2n+2) {
 ----------------------*/
 .profile-image{
   margin-right: 1%;
-  padding: 5px;
-  width: 300px;
-  height: auto;
+  padding: 5pt;
+  width: 100pt;
 }
 
 /*Hiding Enoki's gif for my pretty website*/
@@ -196,8 +194,9 @@ section:nth-child(4) {
   flex-direction: column;
 }
 
-.Skills h2{
+.Skills h4{
   font-size: 15px;
+  font-weight: normal;
 }
 
 .Me .content-wrap{
@@ -208,4 +207,8 @@ section:nth-child(4) {
   font-size: 15px;
 }
 
+.Me h4{
+  font-weight: normal;
+  font-size: 15px;
+}
 
